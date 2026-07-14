@@ -18,6 +18,7 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+---
 include:
   - board: nice_nano_v2
     shield: corne_left nice_oled
@@ -26,6 +27,4 @@ include:
     artifact-name: corne_left_studio
   - board: nice_nano_v2
     shield: corne_right nice_oled  
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: corne_right_studio
+    artifact-name: corne_right
